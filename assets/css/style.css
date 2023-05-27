@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+h3 {
+    color: black;
+}
+
 button {
     margin: 20px;
     padding: 10px;
