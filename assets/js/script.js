@@ -47,7 +47,7 @@ var storedUsers;
 function renderPageLoad () {
     main.style.display = "none";
     end.style.display = "none";
-    storedUsers = localStorage.getItem("highscores");
+    storedUsers = localStorage.getItem("scoreboard");
     console.log(storedUsers);
 }
 
@@ -132,3 +132,4 @@ function endQuiz () {
     console.log(result);
 }
 
+submitButton.addEventListener("submit");
