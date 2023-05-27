@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-#home {
+#home  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +16,3 @@ button {
     padding: 10px;
     border-radius: 10px;
 }
-
