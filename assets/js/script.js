@@ -6,6 +6,11 @@ var answer1 = document.getElementById("answer1");
 var answer2 = document.getElementById("answer2");
 var answer3 = document.getElementById("answer3")
 var end = document.getElementById("end");
+var intialsForm = document.getElementById("intialsForm");
+var scoreSection = document.getElementById("scoreSection")
+var intials = document.getElementById("initials");
+var submitButton = document.getElementById("submit");
+
 
 
 
@@ -37,9 +42,13 @@ var questions = [
 result = 0;
 timeLeft = 20;
 count = 0;
+var storedUsers;
+
 function renderPageLoad () {
     main.style.display = "none";
     end.style.display = "none";
+    storedUsers = localStorage.getItem("highscores");
+    console.log(storedUsers);
 }
 
 function runQuiz () {
