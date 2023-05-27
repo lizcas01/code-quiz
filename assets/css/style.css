@@ -1,9 +1,19 @@
 body {
     background-color: antiquewhite;
+    height:100%;
+    margin: 0px;
 }
 
 #home {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
+
+button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
