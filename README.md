@@ -6,6 +6,7 @@ N/A
 ## Deployed Site 
 https://lizcas01.github.io/code-quiz/
 ## Usage
+![Demopage](assets/images/quiz.jpg)
 Click on the "Start Quiz" button to begin the quiz (you will start off with 20 seconds.). For each question that's answered correctly, ten seconds will be added to the timer but ten seconds will be deducted for every wrong question. At the every end, type in your initials and click "Submit" to view your other scores.
 ## Credits
 N/A
