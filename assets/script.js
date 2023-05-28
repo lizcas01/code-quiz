@@ -10,7 +10,7 @@ var intialsForm = document.getElementById("intialsForm");
 var scoreSection = document.getElementById("scoreSection")
 var intials = document.getElementById("initials");
 var submitButton = document.getElementById("submit");
-
+var score = " "
 
 
 
@@ -127,6 +127,8 @@ function endQuiz () {
     main.style.display = "none";
     end.style.display = "block";
     console.log(result);
+    localStorage.setItem("result", score);
 }
 
-submitButton.addEventListener("submit");
+submitButton.addEventListener("submit", submit);
+
