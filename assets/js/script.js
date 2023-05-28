@@ -42,13 +42,10 @@ var questions = [
 result = 0;
 timeLeft = 20;
 count = 0;
-var storedUsers;
 
 function renderPageLoad () {
     main.style.display = "none";
     end.style.display = "none";
-    storedUsers = localStorage.getItem("scoreboard");
-    console.log(storedUsers);
 }
 
 function runQuiz () {
