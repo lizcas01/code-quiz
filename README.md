@@ -1,6 +1,6 @@
 # Coding Quiz
 ## Description
-For this project, we changed elements to manipulate the DOM to our liking. We used these new skills to create a coding quiz which was pretty complicated to do as I struggle with Javascript.
+For this project, we changed elements to manipulate the DOM to our liking. We used these new skills to create a coding quiz which was pretty complicated to do as I struggle with Javascript. My motivation for this project was to try to improve my Javscript skills to the point where creating timed quiz is a simple task.
 ## Installation
 N/A
 ## Deployed Site 
